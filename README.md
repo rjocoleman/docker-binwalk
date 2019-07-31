@@ -14,6 +14,6 @@ I developed this Docker image to help me run Binwalk on OS X without dealing wit
 
 ```shell
 $ docker pull rjocoleman/binwalk
-$ docker run -it --rm -v "$(PWD):/binwalk" rjocoleman/binwalk [binwalk options] ./firmware.bin
+$ docker run -it --rm -v "$(pwd):/binwalk" rjocoleman/binwalk [binwalk options] ./firmware.bin
 
 ```
